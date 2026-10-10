@@ -1,0 +1,17 @@
+Software Requirements Specification for Hospital Portal
+
+1. INTRODUCTION
+Table of Contents ........ 3
+Page 1 of 12
+
+1.1 Scope
+The system shall allow registered patients to log in using email and password.
+1.2 Security Requirements
+- The system must encrypt all patient health data at rest using AES-256.
+- The system shall automatically lock out accounts after 5 failed login attempts.
+
+2. SYSTEM REQUIREMENTS
+2.1 Performance
+The system should respond to authentication requests within 1.5 seconds.
+2.2 Reporting
+The platform shall generate downloadable PDF appointment history reports within 3 seconds.

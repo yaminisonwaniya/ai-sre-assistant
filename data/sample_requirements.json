@@ -1,0 +1,122 @@
+[
+  {
+    "req_code": "REQ-001",
+    "text": "The system shall allow a registered patient to log in using their email address and a password containing at least 8 characters including one special character.",
+    "type": "FUNCTIONAL",
+    "subtype": "AUTHENTICATION",
+    "quality_score": 95.0,
+    "status": "APPROVED"
+  },
+  {
+    "req_code": "REQ-002",
+    "text": "The system shall respond to user login authentication requests within 1.5 seconds under a concurrent load of 500 users.",
+    "type": "NON_FUNCTIONAL",
+    "subtype": "PERFORMANCE",
+    "quality_score": 98.0,
+    "status": "APPROVED"
+  },
+  {
+    "req_code": "REQ-003",
+    "text": "The application should be user-friendly, fast, and easy to navigate for elderly patients.",
+    "type": "NON_FUNCTIONAL",
+    "subtype": "USABILITY",
+    "quality_score": 40.0,
+    "status": "DRAFT"
+  },
+  {
+    "req_code": "REQ-004",
+    "text": "The system shall process medical records appropriately when errors occur.",
+    "type": "FUNCTIONAL",
+    "subtype": "DATA_PROCESSING",
+    "quality_score": 35.0,
+    "status": "DRAFT"
+  },
+  {
+    "req_code": "REQ-005",
+    "text": "Patients must be able to log into their account using their email address and password.",
+    "type": "FUNCTIONAL",
+    "subtype": "AUTHENTICATION",
+    "quality_score": 70.0,
+    "status": "DRAFT"
+  },
+  {
+    "req_code": "REQ-006",
+    "text": "All patient health record data at rest shall be encrypted using AES-256 encryption standard.",
+    "type": "NON_FUNCTIONAL",
+    "subtype": "SECURITY",
+    "quality_score": 100.0,
+    "status": "APPROVED"
+  },
+  {
+    "req_code": "REQ-007",
+    "text": "The system shall be robust and never crash under any circumstances.",
+    "type": "NON_FUNCTIONAL",
+    "subtype": "RELIABILITY",
+    "quality_score": 25.0,
+    "status": "DRAFT"
+  },
+  {
+    "req_code": "REQ-008",
+    "text": "The system shall export patient appointment history to PDF format within 3 seconds of user request.",
+    "type": "FUNCTIONAL",
+    "subtype": "REPORTING",
+    "quality_score": 92.0,
+    "status": "APPROVED"
+  },
+  {
+    "req_code": "REQ-009",
+    "text": "The application will try to send SMS notifications to doctors when an urgent lab result is uploaded.",
+    "type": "FUNCTIONAL",
+    "subtype": "NOTIFICATION",
+    "quality_score": 50.0,
+    "status": "DRAFT"
+  },
+  {
+    "req_code": "REQ-010",
+    "text": "The platform shall generate downloadable PDF reports of patient appointment records upon user request.",
+    "type": "FUNCTIONAL",
+    "subtype": "REPORTING",
+    "quality_score": 75.0,
+    "status": "DRAFT"
+  },
+  {
+    "req_code": "REQ-011",
+    "text": "The system shall automatically lock a user account after 5 consecutive failed login attempts within 10 minutes.",
+    "type": "FUNCTIONAL",
+    "subtype": "SECURITY",
+    "quality_score": 96.0,
+    "status": "APPROVED"
+  },
+  {
+    "req_code": "REQ-012",
+    "text": "The software should handle large file uploads seamlessly.",
+    "type": "NON_FUNCTIONAL",
+    "subtype": "PERFORMANCE",
+    "quality_score": 30.0,
+    "status": "DRAFT"
+  },
+  {
+    "req_code": "REQ-013",
+    "text": "The patient portal interface shall comply with WCAG 2.1 Level AA accessibility guidelines.",
+    "type": "NON_FUNCTIONAL",
+    "subtype": "ACCESSIBILITY",
+    "quality_score": 90.0,
+    "status": "APPROVED"
+  },
+  {
+    "req_code": "REQ-014",
+    "text": "The system shall look modern, attractive, and state-of-the-art.",
+    "type": "NON_FUNCTIONAL",
+    "subtype": "USABILITY",
+    "quality_score": 20.0,
+    "status": "DRAFT"
+  },
+  {
+    "req_code": "REQ-015",
+    "text": "The system shall send an automated email confirmation to the patient within 60 seconds of successful appointment booking.",
+    "type": "FUNCTIONAL",
+    "subtype": "NOTIFICATION",
+    "quality_score": 94.0,
+    "status": "APPROVED"
+  }
+]
